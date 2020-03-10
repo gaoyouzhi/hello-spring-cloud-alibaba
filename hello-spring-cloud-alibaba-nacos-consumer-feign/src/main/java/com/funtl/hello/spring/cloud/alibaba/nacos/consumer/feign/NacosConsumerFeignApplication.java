@@ -6,10 +6,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
- * @author 高雄
- * @version 1.0.0
- * @Description TODO
- * @createTime 2019年08月21日 09:25:00
+ * @Description 描述：实现熔断的消费者启动类
+ * @Author: youzhi.gao@ikang.com
+ * @Date: 2020-03-10 15:53
  */
 @EnableDiscoveryClient
 @EnableFeignClients

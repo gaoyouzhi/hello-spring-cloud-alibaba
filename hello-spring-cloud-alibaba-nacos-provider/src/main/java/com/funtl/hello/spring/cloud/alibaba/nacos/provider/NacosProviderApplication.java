@@ -5,10 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
- * @author 高雄
- * @version 1.0.0
- * @Description TODO
- * @createTime 2019年08月20日 17:46:00
+ * @Description 描述：Nacos提供者启动类
+ * @Author: youzhi.gao@ikang.com
+ * @Date: 2020-03-10 16:12
  */
 @SpringBootApplication
 @EnableDiscoveryClient

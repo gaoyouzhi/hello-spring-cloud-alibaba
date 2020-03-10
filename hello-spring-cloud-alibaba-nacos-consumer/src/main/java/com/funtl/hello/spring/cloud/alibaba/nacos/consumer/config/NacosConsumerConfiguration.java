@@ -5,10 +5,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * @author 高雄
- * @version 1.0.0
- * @Description TODO
- * @createTime 2019年08月21日 08:56:00
+ * @Description 描述：Nacos消费者配置文件
+ * @Author: youzhi.gao@ikang.com
+ * @Date: 2020-03-10 15:51
  */
 @Configuration
 public class NacosConsumerConfiguration {

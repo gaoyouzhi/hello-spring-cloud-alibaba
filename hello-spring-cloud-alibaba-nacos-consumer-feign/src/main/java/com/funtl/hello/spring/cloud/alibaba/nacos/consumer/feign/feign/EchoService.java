@@ -6,10 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 /**
- * @author 高雄
- * @version 1.0.0
- * @Description TODO
- * @createTime 2019年08月21日 09:27:00
+ * @Description 描述：熔断接口
+ * @Author: youzhi.gao@ikang.com
+ * @Date: 2020-03-10 15:53
  */
 @FeignClient(value = "nacos-provider", fallback = EchoServiceFallback.class)
 public interface EchoService {

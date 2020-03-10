@@ -10,10 +10,9 @@ import org.springframework.messaging.MessageChannel;
 import org.springframework.messaging.support.MessageBuilder;
 
 /**
- * @author 高雄
- * @version 1.0.0
- * @Description TODO
- * @createTime 2019年08月22日 09:53:00
+ * @Description 描述：RocketMQ服务提供者
+ * @Author: youzhi.gao@ikang.com
+ * @Date: 2020-03-10 15:56
  */
 @SpringBootApplication
 @EnableBinding({ Source.class})

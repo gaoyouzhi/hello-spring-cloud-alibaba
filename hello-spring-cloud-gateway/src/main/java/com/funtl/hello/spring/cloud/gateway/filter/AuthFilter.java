@@ -16,10 +16,9 @@ import reactor.core.publisher.Mono;
 import java.util.Map;
 
 /**
- * @author 高雄
- * @version 1.0.0
- * @Description TODO
- * @createTime 2019年08月21日 14:29:00
+ * @Description 描述：鉴权过滤器
+ * @Author: youzhi.gao@ikang.com
+ * @Date: 2020-03-10 15:57
  */
 @Component
 public class AuthFilter implements GlobalFilter, Ordered {

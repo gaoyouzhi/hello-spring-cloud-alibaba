@@ -7,10 +7,9 @@ import org.springframework.cloud.stream.annotation.StreamListener;
 import org.springframework.cloud.stream.messaging.Sink;
 
 /**
- * @author 高雄
- * @version 1.0.0
- * @Description TODO
- * @createTime 2019年08月22日 10:39:00
+ * @Description 描述：RocketMQ服务启动类
+ * @Author: youzhi.gao@ikang.com
+ * @Date: 2020-03-10 15:54
  */
 @SpringBootApplication
 @EnableBinding({Sink.class})

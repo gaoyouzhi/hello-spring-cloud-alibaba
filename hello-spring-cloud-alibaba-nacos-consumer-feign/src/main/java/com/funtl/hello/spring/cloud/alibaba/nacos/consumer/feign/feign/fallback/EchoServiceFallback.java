@@ -4,10 +4,9 @@ import com.funtl.hello.spring.cloud.alibaba.nacos.consumer.feign.feign.EchoServi
 import org.springframework.stereotype.Component;
 
 /**
- * @author 高雄
- * @version 1.0.0
- * @Description TODO
- * @createTime 2019年08月21日 09:53:00
+ * @Description 描述：消费者服务熔断时的响应
+ * @Author: youzhi.gao@ikang.com
+ * @Date: 2020-03-10 15:52
  */
 @Component
 public class EchoServiceFallback implements EchoService {

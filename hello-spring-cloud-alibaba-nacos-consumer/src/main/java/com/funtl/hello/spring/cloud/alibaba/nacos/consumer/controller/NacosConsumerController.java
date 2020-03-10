@@ -9,10 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * @author 高雄
- * @version 1.0.0
- * @Description TODO
- * @createTime 2019年08月21日 08:57:00
+ * @Description 描述：nacos restful消费者控制器
+ * @Param
+ * @Returns
+ * @Author: youzhi.gao@ikang.com
+ * @Date: 2020-03-10 15:50
  */
 @RestController
 public class NacosConsumerController {

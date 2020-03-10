@@ -8,10 +8,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author 高雄
- * @version 1.0.0
- * @Description TODO
- * @createTime 2019年08月21日 09:36:00
+ * @Description 描述：Nacos提供者控制器
+ * @Author: youzhi.gao@ikang.com
+ * @Date: 2020-03-10 16:13
  */
 @RestController
 public class NacosProviderController {
